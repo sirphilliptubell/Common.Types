@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Sir Phillip Tubell</Authors>
+    <Company />
+    <RepositoryUrl>https://github.com/sirphilliptubell/Common.Types</RepositoryUrl>
+    <PackageTags>Types; Primitives; Extensions; Library; Functional</PackageTags>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/sirphilliptubell/Common.Types/master/LICENSE</PackageLicenseUrl>
+    <RootNamespace>Common</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+    <Folder Include="Types\" />
+  </ItemGroup>
+
+</Project>
